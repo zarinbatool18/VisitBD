@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+
+
+.header {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; 
+  }
+  
+  .cursive-header {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #31332d;
+    margin: 0;
+    padding: 0;
+  }
+
+  .subcap {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0e0c0c;
+    bottom: 100px; 
+    left: 10px; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  

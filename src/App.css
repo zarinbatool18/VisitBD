@@ -1,0 +1,70 @@
+.travel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  width: 400px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.travel-container h1 {
+  margin-bottom: 20px;
+}
+
+.travel-container label {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.travel-container input[type="text"],
+.travel-container input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.save-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.save-button {
+  background-color: #ff5a5f;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #d9534f;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: #ff5a5f;
+}
+
+.cancel-button:hover {
+  background-color: #ffe6e6;
+  color: #ff5a5f;
+}
+
+
