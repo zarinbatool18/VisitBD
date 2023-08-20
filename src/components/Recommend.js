@@ -6,9 +6,11 @@ import Destination3 from "../assets/Destination3.png";
 import Destination4 from "../assets/Destination4.png";
 import Destination5 from "../assets/Destination5.png";
 import Destination6 from "../assets/Destination6.png";
+import Spots from "./Spots";
 
 
 export default function Recommend() {
+
   const data = [
     {
       image: Destination1,
@@ -68,12 +70,16 @@ export default function Recommend() {
             );
           })}
         </ul>
-      </div>
+      </div> 
       <div className="destinations">
         {data.map((destination) => {
           return (
             <div className="destination">
+
+                    
               <img src={destination.image} alt="" />
+    
+\
               <h3>{destination.title}</h3>
               <p>{destination.subTitle}</p>
               <div className="info">
